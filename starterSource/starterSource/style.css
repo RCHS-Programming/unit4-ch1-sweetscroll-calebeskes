@@ -20,6 +20,15 @@ body, html {
   background-size: auto;
 }
 
+.cd-logo, .kitchen-equipment {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #642580;
+  background-size: cover;
+  min-height: 100%;
+}
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -31,4 +40,8 @@ h3 {
 .textSection {
   background-color:#642580;
   padding:50px 80px;
+}
+
+.kitchen-equipment {
+  background-image: url("utensils.JPG");
 }
